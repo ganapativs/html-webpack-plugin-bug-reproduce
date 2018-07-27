@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+    <!-- Basically want to do some manipulation on chunk name & path here, is there any other way to access it? -->
+    <script src="./<%= webpack.assetsByChunkName.index1 %>"></script>
+</body>
+</html>

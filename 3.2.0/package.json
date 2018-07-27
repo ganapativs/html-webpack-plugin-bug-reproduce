@@ -1,0 +1,14 @@
+{
+  "name": "html-webpack-bug",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "3.2.0",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0"
+  }
+}
